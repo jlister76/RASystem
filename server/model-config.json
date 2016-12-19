@@ -1,0 +1,36 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "QtlyStatus": {
+    "dataSource": "RASysMSSQL",
+    "public": false
+  },
+  "MoStatus": {
+    "dataSource": "RASysMSSQL",
+    "public": false
+  },
+  "employee": {
+    "dataSource": "RASysMSSQL",
+    "public": false
+  },
+  "injury": {
+    "dataSource": "RASysMSSQL",
+    "public": false
+  },
+  "VehAccident": {
+    "dataSource": "RASysMSSQL",
+    "public": true
+  }
+}

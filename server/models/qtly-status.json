@@ -1,0 +1,40 @@
+{
+  "name": "QtlyStatus",
+  "base": "PersistedModel",
+  "options": {
+    "idInjection": true,
+    "mssql": {
+      "table": "qtly_status"
+    }
+  },
+  "properties": {
+    "created_on": {
+      "type": "date"
+    },
+    "qtr": {
+      "type": "number"
+    },
+    "yr": {
+      "type": "number"
+    },
+    "ra_required": {
+      "type": "number"
+    },
+    "ra_completed": {
+      "type": "number"
+    },
+    "requirement_met": {
+      "type": "boolean"
+    },
+    "met_requirement": {
+      "type": "date"
+    },
+    "employee_id": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

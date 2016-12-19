@@ -1,0 +1,46 @@
+{
+  "name": "MoStatus",
+  "base": "PersistedModel",
+  "options": {
+    "idInjection": true,
+    "mssql": {
+      "table": "mo_status"
+    }
+  },
+  "properties": {
+    "created_on": {
+      "type": "date"
+    },
+    "qtr": {
+      "type": "number"
+    },
+    "mo": {
+      "type": "number"
+    },
+    "yr": {
+      "type": "number"
+    },
+    "status": {
+      "type": "string"
+    },
+    "requirement_met": {
+      "type": "boolean"
+    },
+    "met_requirement": {
+      "type": "date"
+    },
+    "ra_id": {
+      "type": "number"
+    },
+    "employee_id": {
+      "type": "number"
+    },
+    "qs_id": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

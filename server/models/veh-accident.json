@@ -1,0 +1,22 @@
+{
+  "name": "VehAccident",
+  "base": "PersistedModel",
+  "options": {
+    "idInjection": true,
+    "mssql": {
+      "table": "veh_accident$"
+    }
+  },
+  "properties": {
+    "date": {
+      "type": "date"
+    },
+    "employee_id": {
+      "type": "number"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
