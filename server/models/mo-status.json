@@ -23,9 +23,6 @@
     "status": {
       "type": "string"
     },
-    "requirement_met": {
-      "type": "boolean"
-    },
     "met_requirement": {
       "type": "date"
     },

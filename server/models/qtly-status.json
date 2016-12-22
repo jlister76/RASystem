@@ -17,10 +17,10 @@
     "yr": {
       "type": "number"
     },
-    "ra_required": {
+    "required_count": {
       "type": "number"
     },
-    "ra_completed": {
+    "completed_count": {
       "type": "number"
     },
     "requirement_met": {
